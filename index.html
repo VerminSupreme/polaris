@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+        body, html{
+            min-height: 100vh;
+            width: 100%;
+
+        }
+        body{
+            background: url('https://news.unl.edu/sites/default/files/media/shutterstock_471693773.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        #title{
+            font-size: 3rem;
+            color: white;
+        }
+        .subtitle{
+            padding: 20px 0;
+            font-size: 1.9rem;
+        }
+        .content-container{
+            width: 80vh;
+            height: 80vh;
+            border: 1px solid black;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            background: rgba(0,0,0,.8);
+            color: rgb(224, 224, 224);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px 30px;
+        }
+        .content-container p{
+            text-align: center;
+            font-size: 1.2em;
+        }
+        #sources{
+            font-size: .7rem;
+        }
+    
+    </style>
+    <script defer>
+    
+    </script>
+
+</head>
+
+<body>
+    <div class="content-container">
+        <h1 id="title" class="subtitle">Polaris</h1>
+        <h2 class="subtitle">Distance, location and magnitude</h2>
+        <p>Polaris is 323 light years from earth, while the sun is only 8.2 light minutes away.            
+            The star is loacted at the north celestial pole, and can be found at the end of the "handle" of the Little Dipper.
+            <br><br>
+            While it is known as Polaris, it has taken on many other names throughout history such as the Pole Star, Lodestar, and Cynosura.
+            Today, it is also sometimes called the Northern Star or the Guiding star.
+            <br><br>
+            The star has an absolute magnitude of -3.64, and an apparent magnitude of 2.00.
+            The sun, on the other hand, has an apparent magnitude of -26.74, and an absolute magnitude of 4.83.
+            This means that the sun appears much brighter than Polaris from our perspective, but in reality Polaris the the brighter star between the two.            
+        </p>
+        <h2 class="subtitle">Star's Story</h2>
+        <p>
+            Partially due to the fact that Polaris is on the north celestial pole, it was intergrated into the mythology of multiple cultures.
+            In Norse mythology, it was believed that Polaris was the end of a spike that the sky rotates around.
+            This makes some sense due to the fact that the sty does in fact rotate around a point very near to Polaris.
+            Similar to Norse mythology was the Mongolian idea that Polaris is a peg that holds the world together.
+            <br><br>
+            Polaris was also used for practical reasons throughout history.
+            Sailors were able to use Polaris as a kind of compass to direct them, due to the fact that the star would always point them north.
+        </p>
+        <h2 class="subtitle">Classification</h2>
+        <p>
+
+        </p>
+        <h2 class="subtitle">
+            <br><br><br><br><br>
+            Sources:
+        </h2>
+        <p id="sources">
+            https://skyandtelescope.org/astronomy-news/meet-polaris-the-north-star/#:~:text=In%20Norse%20tales%2C%20Polaris%20was,it%20for%20navigation%20for%20centuries.
+            <br><br>
+            https://www.space.com/15567-north-star-polaris.html
+
+        </p>   
+    </div>
+</body>
+</html>
